@@ -1,34 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>  
 
-<widget xmlns   ="http://www.w.org/ns/widgets"
+<widget xmlns   ="http://www.w3.org/ns/widgets"
    xmlns:gap="http://phonegap.com/ns/1.0"
    id  ="com.phonegap.app1"
-   vercion="1.0.0">
+   version="1.0.0">
    
-   <name>app1_2019 Datos del dispositivo</name>
+   <name>app1-2019 Datos del dispositivo</name>
    
    <description>
-   Aplixaciones que nos muestra la informacion referente al Dispositivo Movil
+   Aplicaciones que nos muestra la informacion referente al Dispositivo Movil
    </description>
    
-   <author href="https://build_phonegap.com" email="marcoantoniotorresaguilar23@gmail.com">
+   <author href="https://build.phonegap.com" email="marcoantoniotorresaguilar23@gmail.com">
    Marco Antonio Torres Aguilar
    </author>
    
-   <!--Personaliza la aplicacion y platamoprma-->
-   <preference name="orientacion"     value"default"/>
-   <!--<preference name="orientacion"     value="portrait"/>
-   <preference name="orientacion"     value="landscape"/> -->
+   <!--Personaliza la aplicacion y plataforma-->
+   <preference name="orientation"     value"default"/>
+   <!--<preference name="orientation"     value="portrait"/>
+   <preference name="orientation"     value="landscape"/> -->
    <preference name="target-device"     value"universal"/>
    <preference name="fullscreen"     value"true"/>
    <preference name="android-installLocation"     value"auto"/>
    <preference name="permissions"     value"INTERNET"/>
    
    <!--Plugins-->
-   <plugin name="cordoba-plugin-device"     spec"~1.1.4"/>
-   <plugin name="cordoba-plugin-vibration"     spec"~2.1.3"/>
-   <plugin name="cordoba-plugin-device"     spec"~1.3.1"/>
-   <!--<Plugin name="cordova-plugin-geolocation" sourcce="npm"/>-->
+   <plugin name="cordova-plugin-device"spec="~1.1.4"/>
+   <plugin name="cordova-plugin-vibration"spec="~2.1.3"/>
+   <plugin name="cordova-plugin-dialogs"spec="~1.3.1"/>
+   <!--<Plugin name="cordova-plugin-geolocation" source="npm"/>-->
    
    
    
